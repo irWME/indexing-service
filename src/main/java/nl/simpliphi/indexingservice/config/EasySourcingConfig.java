@@ -1,8 +1,6 @@
 package nl.simpliphi.indexingservice.config;
 
-import io.github.alikelleci.easysourcing.EasySourcingBuilder;
-import io.github.alikelleci.easysourcing.GatewayBuilder;
-import org.apache.kafka.clients.producer.ProducerConfig;
+import com.github.easysourcing.EasySourcingBuilder;
 import org.apache.kafka.streams.StreamsConfig;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;

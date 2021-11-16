@@ -1,6 +1,6 @@
 package nl.simpliphi.indexingservice.customer;
 
-import io.github.alikelleci.easysourcing.messages.snapshots.annotations.HandleSnapshot;
+import com.github.easysourcing.messages.snapshots.annotations.HandleSnapshot;
 import nl.simpliphi.shopdomain.customer.Customer;
 import nl.simpliphi.shopprojections.customer.CustomerDto;
 import org.springframework.stereotype.Component;
